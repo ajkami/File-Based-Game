@@ -60,7 +60,7 @@ def mana_points_calc(mana_points,change):
     mana_new = mana_points + change
     return mana_new
 
-def info_write(life_points,mana_points,):
+def info_write(life_points,mana_points):
     with open(file, 'w') as f:
         line1 = "Life:" + str(life_points) + '\n'
         line2 = "Mana:" + str(mana_points)

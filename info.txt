@@ -1,2 +1,2 @@
-Life:63
-Mana:33
+Life:83
+Mana:48
